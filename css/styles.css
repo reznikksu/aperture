@@ -227,6 +227,7 @@ h4 {
 
 .owl-carousel {
   margin-top: 50px;
+  width: 720px;
 }
 
 .owl-carousel .owl-stage {
@@ -235,19 +236,8 @@ h4 {
   margin-bottom: 30px;
 }
 
-.owl-nav {
-  display: flex;
-  justify-content: space-around;
-  max-width: 100px;
-  margin: auto;
-}
-
-.owl-prev {
-  color: white !important;
-}
-
-.owl-next {
-  color: white !important;
+.owl-item {
+  width: 120px;
 }
 
 .logo {
