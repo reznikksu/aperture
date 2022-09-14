@@ -9,6 +9,7 @@ body {
 
 header {
   padding: 24px 0;
+
 }
 
 .container {
@@ -28,7 +29,7 @@ header nav ul {
 }
 
 nav ul li a {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +50,7 @@ header nav ul li:first-of-type a {
 header nav ul li:last-of-type a {
   background: #FFFFFF;
   border-radius: 10px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,6 +58,7 @@ header nav ul li:last-of-type a {
   letter-spacing: 0.4px;
   padding: 7px 14px;
   color: #000000;
+
 }
 
 .img_background {
@@ -66,7 +68,7 @@ header nav ul li:last-of-type a {
   height: 90vh;
 }
 
-.img_background > div {
+.img_background>div {
   padding-top: 550px;
   max-width: 580px;
   margin: auto;
@@ -74,7 +76,7 @@ header nav ul li:last-of-type a {
 }
 
 h6 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -82,21 +84,25 @@ h6 {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+
   color: #C0C0C0;
+
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 54px;
   line-height: 59px;
   text-align: center;
+
   color: #FFFFFF;
+
 }
 
 p {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -108,6 +114,7 @@ p {
   text-align: center;
   margin-bottom: 30px;
 }
+
 
 h2 {
   font-family: Poppins;
@@ -123,12 +130,16 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 }
 
 .work_photos {
   flex-wrap: wrap;
   display: flex;
   max-width: 1200px;
+
+
 }
 
 .card {
@@ -164,12 +175,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-.card > p {
+.card>p {
   margin-bottom: 15px;
 }
 
 h4 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -186,14 +197,17 @@ h4 {
   border-radius: 14px;
   padding: 5px;
   align-items: center;
+
+
 }
 
 .view_more p {
   color: #000000;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-size: 15px;
   letter-spacing: 0.4px;
   margin-left: 10px;
+
 }
 
 .big_card {
@@ -238,8 +252,8 @@ h4 {
 .logo_text_card a {
   margin-right: 60px;
   display: flex;
-}
 
+}
 .contacts {
   display: flex;
   flex-direction: column;
@@ -248,16 +262,12 @@ h4 {
   height: 50vh;
 }
 
-.contacts a {
+.contacts a{
   margin-top: 30px;
 }
-
-.contacts > p {
-  margin-top: 20px;
+.contacts>p{
+  margin-top:  20px;
 }
-
-.contacts h2 {
+.contacts h2{
   max-width: 800px;
 }
-
-/*# sourceMappingURL=styles.css.map */
