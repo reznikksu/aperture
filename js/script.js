@@ -30,7 +30,6 @@ const nav = document.querySelector("nav");
 const navLinksContainer = document.querySelector(".nav-links");
 const navLinks = [...document.querySelectorAll(".link")];
 const menuBtn = document.querySelector(".menu-btn");
-const subMenuBtn = document.querySelector(".sub-menu-btn");
 
 function createHoverEl() {
 	let hoverEl = document.createElement("div");
@@ -64,10 +63,6 @@ navLinks.forEach((link, index) => {
 menuBtn.addEventListener("click", function() {
 	nav.classList.toggle("nav-open");
 	menuBtn.classList.toggle("close");
-});
-subMenuBtn.addEventListener("click", function() {
-	nav.classList.toggle("sub-menu-open");
-	removeSubmenu();
 });
 
 function toggleSubmenu(el) {
